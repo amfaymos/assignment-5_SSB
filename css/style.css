@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #04b8ff;
+}
+
+header nav {
+    width: 40%;
+    margin: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+header nav ul li {}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left {
+    width: 40%;
+    background: #38aaef;
+    padding: 100px 0;
+}
+
+.left img {
+    width: 90%;
+}
+
+.rightForm {
+    width: 60%;
+    background: #007cff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 0;
+}
+
+.formContent {
+    width: 50%;
+}
+
+.formContent h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+.formContent h4 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.formContent p {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.formContent form {}
+
+.formContent form input {
+    width: 100%;
+    border: none;
+    padding: 10px 0 10px 5px;
+    margin: 5px 0;
+}
+
+.formContent form input[type='submit'] {
+    width: 25%;
+    padding-left: 0;
+    text-transform: capitalize;
+    color: #484848;
+    font-weight: 600;
+}
+
+.formContent form input::placeholder {
+    color: rgb(51, 51, 51);
+    text-transform: capitalize;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.social ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+
+.social ul li {
+    padding-right: 10px;
+    color: white;
+}
+
+.social ul li i {
+    box-shadow: 1px 1px 1px 1px #178fff;
+}
+
+.social ul li a {
+    color: white;
+}
